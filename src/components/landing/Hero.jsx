@@ -29,7 +29,7 @@ export default function Hero() {
             </p>
             
             <p className="text-base sm:text-lg md:text-xl text-white pt-2">
-              If you don't make your first $10K, we'll work with you until you do
+              If you don't make money, we don't get paid — simple as that
             </p>
           </motion.div>
 
