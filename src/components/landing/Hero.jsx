@@ -70,18 +70,13 @@ export default function Hero() {
           </motion.div>
 
           {/* Performance Image Section */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-8 mb-6 md:mb-8 max-w-5xl mx-auto w-full px-4"
-          >
+          <div className="mt-8 mb-6 md:mb-8 max-w-5xl mx-auto w-full px-4">
             <img 
               src="/Momoento Perfom.png" 
               alt="Performance Results" 
-              className="w-full h-auto rounded-2xl shadow-[0_0_40px_rgba(0,110,255,0.4),0_0_80px_rgba(0,110,255,0.2)]"
+              className="w-full h-auto rounded-2xl shadow-[0_0_40px_rgba(0,110,255,0.5),0_0_80px_rgba(0,110,255,0.3),0_0_120px_rgba(0,110,255,0.2)]"
             />
-          </motion.div>
+          </div>
         </div>
       </div>
     </BeamsBackground>
