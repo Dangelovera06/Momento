@@ -44,11 +44,14 @@ export default function FinalClose() {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center justify-center gap-2 rounded-xl text-white font-bold transition-all hover:scale-105 bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] shadow-[0_0_20px_rgba(0,110,255,0.5),0_0_40px_rgba(0,110,255,0.3),0_0_60px_rgba(0,110,255,0.2)] text-base sm:text-lg w-full sm:w-auto"
+              className="relative inline-flex items-center justify-center gap-2 rounded-xl text-white font-bold transition-all hover:scale-105 bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] shadow-[0_0_20px_rgba(0,110,255,0.5),0_0_40px_rgba(0,110,255,0.3),0_0_60px_rgba(0,110,255,0.2)] text-base sm:text-lg w-full sm:w-auto overflow-hidden"
               style={{ maxWidth: '397.2px', height: '62.4px', minWidth: '280px' }}
             >
               <span 
                 className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/20 via-transparent to-transparent"
+              />
+              <span 
+                className="pointer-events-none absolute inset-0 translate-x-[-100%] animate-[shimmer_2.5s_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent"
               />
               <span className="relative z-10 flex items-center justify-center gap-2">
                 <span>Apply Today</span>
