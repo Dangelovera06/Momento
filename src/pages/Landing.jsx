@@ -1,4 +1,5 @@
 import React from "react";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 
 import Hero from "../components/landing/Hero";
 import HardTruth from "../components/landing/HardTruth";
@@ -17,19 +18,32 @@ export default function Landing() {
     <div className="min-h-screen overflow-x-hidden w-full bg-neutral-950">
       {/* Floating Navigation Header - Visible Throughout Site */}
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
-        <div className="mx-auto flex w-full max-w-7xl items-center justify-center px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
-          <div className="flex flex-col items-center gap-2">
-            {/* Logo and Name */}
-            <div className="flex items-center gap-2">
-              <img src="/Momento Logo1.svg" alt="Momento" className="h-10 w-auto sm:h-12" />
-              <span className="text-xl sm:text-2xl font-normal tracking-wide text-white">Momento</span>
-            </div>
-            
-            {/* Offer Text */}
-            <div className="text-xs sm:text-sm font-normal tracking-widest text-white/60 uppercase">
-              This Offer Will Close
-            </div>
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
+          {/* Logo and Name - Left */}
+          <div className="flex items-center gap-2">
+            <img src="/Momento Logo1.svg" alt="Momento" className="h-10 w-auto sm:h-12" />
+            <span className="text-xl sm:text-2xl font-normal tracking-wide text-white">Momento</span>
           </div>
+
+          {/* Offer Text - Center */}
+          <div className="hidden md:block text-xs sm:text-sm font-normal tracking-widest text-white/60 uppercase">
+            This Offer Will Close
+          </div>
+
+          {/* CTA Button - Right */}
+          <RainbowButton
+            onClick={(e) => {
+              if (window.fbq) {
+                window.fbq('track', 'Lead', {
+                  content_name: 'Header CTA Click',
+                  content_category: 'CTA Button'
+                });
+              }
+              window.open('#', '_blank');
+            }}
+          >
+            Apply Now
+          </RainbowButton>
         </div>
       </header>
 
