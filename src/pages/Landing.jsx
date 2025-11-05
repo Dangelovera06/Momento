@@ -40,9 +40,7 @@ export default function Landing() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-gradient-to-br from-[#006eff] to-[#0050cc] flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-lg sm:text-xl">M</span>
-            </div>
+            <img src="/logo.png" alt="Momento" className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl shadow-lg" />
             <span className="text-lg sm:text-xl font-bold tracking-tight text-white">Momento</span>
           </div>
 
