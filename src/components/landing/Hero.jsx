@@ -14,23 +14,24 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="space-y-4"
           >
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
-              Turn Your Audience Into a{' '}
+              We Build Your{' '}
               <span className="bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
-                Revenue Machine
+                Course, Sales Funnel & Complete
               </span>
+              {' '}Monetization System
             </h1>
+            
+            <p className="text-lg sm:text-xl md:text-2xl text-white/70 font-light">
+              (without needing tech skills or marketing experience)
+            </p>
+            
+            <p className="text-base sm:text-lg md:text-xl text-white pt-2">
+              If you don't make your first $10K, we'll work with you until you do
+            </p>
           </motion.div>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="mx-auto mt-6 max-w-3xl text-balance text-xl text-white/80 md:text-2xl"
-          >
-            We build your course, sales funnel, and everything you need to monetize your knowledge — fully done-for-you
-          </motion.p>
 
           {/* Placeholder Section */}
           <motion.div 
