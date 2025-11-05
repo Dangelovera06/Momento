@@ -68,7 +68,7 @@ export default function Landing() {
               window.open('#', '_blank');
             }}
           >
-            Get Started
+            Apply Now
           </RainbowButton>
         </div>
       </header>

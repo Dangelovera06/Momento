@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Shield, CheckCircle, Clock, Video } from "lucide-react";
+import { Clock, Video } from "lucide-react";
 import { BeamsBackground } from "@/components/ui/beams-background";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import PricingBadge from './PricingBadge';
@@ -106,7 +106,7 @@ export default function Hero() {
               }}
               className="w-full sm:w-auto text-base sm:text-lg md:text-xl lg:text-2xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 h-auto"
             >
-              Get Started Today
+              Apply Today
             </RainbowButton>
             
             {/* Countdown Timer */}
@@ -130,47 +130,22 @@ export default function Hero() {
             <PricingBadge />
           </motion.div>
 
-          {/* Money Back Guarantee - EMPHASIZED */}
+          {/* Quick Start Feature - No Boxes */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
             className="mb-6 md:mb-8 px-4"
           >
-            <div className="inline-flex items-center gap-2 sm:gap-3 md:gap-4 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl md:rounded-2xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/30 md:border-2 backdrop-blur-sm shadow-lg md:shadow-2xl shadow-[#006eff]/20 hover:shadow-[#006eff]/30 transition-shadow">
-              <Shield className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 flex-shrink-0 text-[#006eff]" />
-              <div className="text-left">
-                <div className="font-extrabold text-base sm:text-lg md:text-2xl lg:text-3xl text-white mb-0.5 md:mb-1">
-                  Results Guarantee
-                </div>
-                <div className="text-xs sm:text-sm md:text-base lg:text-lg text-[#006eff]/90 font-medium">
-                  We don't stop until your product is launched and profitable.
-                </div>
-              </div>
-              <CheckCircle className="hidden sm:block w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 flex-shrink-0 text-[#006eff]" />
-            </div>
-          </motion.div>
-
-          {/* Quick Start Feature */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="mb-6 md:mb-8 px-4"
-          >
-            <div className="grid sm:grid-cols-2 gap-3 sm:gap-4 max-w-3xl mx-auto">
-              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-[#006eff]/20">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#006eff]/20 flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#006eff]" />
-                </div>
+            <div className="flex items-center justify-center gap-6 sm:gap-8 max-w-3xl mx-auto">
+              <div className="flex items-center gap-2">
+                <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-[#006eff]" />
                 <div className="font-bold text-sm sm:text-base md:text-lg text-white">
                   Launch in 30 Days
                 </div>
               </div>
-              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-[#006eff]/20">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#006eff]/20 flex items-center justify-center flex-shrink-0">
-                  <Video className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#006eff]" />
-                </div>
+              <div className="flex items-center gap-2">
+                <Video className="w-5 h-5 sm:w-6 sm:h-6 text-[#006eff]" />
                 <div className="font-bold text-sm sm:text-base md:text-lg text-white">
                   Fully Done-For-You
                 </div>

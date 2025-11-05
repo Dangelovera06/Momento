@@ -80,7 +80,7 @@ export default function WhatYouGet() {
               className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/20 via-transparent to-transparent"
             />
             <span className="relative z-10 text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed flex items-center justify-center gap-2 sm:gap-3">
-              <span className="whitespace-nowrap">Start Building Now</span>
+              <span className="whitespace-nowrap">Apply Today</span>
               <ArrowRight className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0" />
             </span>
           </a>

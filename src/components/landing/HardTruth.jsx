@@ -100,7 +100,7 @@ export default function HardTruth() {
               }}
               className="w-full sm:w-auto text-base sm:text-lg md:text-xl lg:text-2xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 h-auto"
             >
-              Start Monetizing Today
+              Apply Today
             </RainbowButton>
           </motion.div>
         </motion.div>
