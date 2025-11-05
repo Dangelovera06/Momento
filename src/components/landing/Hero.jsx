@@ -41,7 +41,7 @@ export default function Hero() {
             className="mt-6 mb-8 md:mb-10 max-w-5xl mx-auto w-full px-4"
           >
             <div className="relative overflow-hidden border-2 border-[#006eff]/30 shadow-2xl shadow-[#006eff]/20">
-              <wistia-player media-id="w4p6cr6l8l" aspect="1.7777777777777777"></wistia-player>
+              <wistia-player media-id="w4p6cr6l8l" aspect="1.7777777777777777" style={{ transform: 'scale(1.02)' }}></wistia-player>
             </div>
           </motion.div>
 
