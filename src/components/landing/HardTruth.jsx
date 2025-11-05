@@ -7,22 +7,22 @@ const benefits = [
   {
     title: "YOU DON'T NEED TECH SKILLS",
     description: "Building a profitable info product doesn't require coding or technical expertise—we handle all the technical setup, platforms, and integrations so you can focus on your content and audience.",
-    icon: "/website icons/21.png"
+    icon: "/website icons/29.png"
   },
   {
     title: "YOU DON'T NEED TO BE A COURSE CREATOR",
     description: "Momento transforms your existing knowledge and content into structured courses and products. We handle the curriculum design, formatting, and delivery—you just provide the expertise.",
-    icon: "/website icons/22.png"
+    icon: "/website icons/30.png"
   },
   {
     title: "YOU DON'T NEED MARKETING EXPERIENCE",
     description: "Our proven sales funnel templates convert visitors into paying customers automatically. We build email sequences, landing pages, and checkout flows that have generated millions in revenue.",
-    icon: "/website icons/23.png"
+    icon: "/website icons/31.png"
   },
   {
     title: "YOU DON'T NEED A MASSIVE AUDIENCE",
     description: "With Momento, even a modest engaged following can generate serious revenue. We've helped creators with just 5,000 followers build six-figure businesses through strategic monetization.",
-    icon: "/website icons/24.png"
+    icon: "/website icons/32.png"
   }
 ];
 
