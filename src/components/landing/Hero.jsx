@@ -17,13 +17,13 @@ export default function Hero() {
             className="space-y-4"
           >
                       <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight px-2">
-                        We Build Your{' '}
+                        From Content Creator to{' '}
                         <span className="relative inline-block overflow-hidden bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] bg-clip-text text-transparent">
                           <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent bg-clip-text text-transparent" style={{ left: '30%', width: '40%' }}></span>
                           <span className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-transparent bg-clip-text text-transparent"></span>
-                          Course, Sales Funnel & Complete
+                          Six-Figure Business Owner
                         </span>
-                        {' '}Monetization System
+                        {' '}in 30 Days
                       </h1>
 
                       <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-light px-2">
